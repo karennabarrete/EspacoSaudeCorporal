@@ -1,13 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
-header{
-    background-color:
+header {
+    background-color: #101a41;
+    display: flex;
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    color:beige;
+}
+.logo img{ 
+    max-width: 200px;
+    text-align: center;
 
 }
 
-nav{
-    text-decoration-color: aliceblue;
-}
