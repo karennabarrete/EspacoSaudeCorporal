@@ -45,63 +45,12 @@ a {
 .logo img{ 
     max-width: 200px;
     align-items: center;
-  
-
-}
-.banner img{
-    height: 540px;
-    width: 100%;
-    object-fit: cover;
 }
 
-/*CSS Menu - Serviços*/
+/*PRODUTO*/
 
-h2 {
-    display:block;
-    max-width: 100%;
-    background-color: rgb(215, 250, 215);
-    text-align: center;
-    color: rgb(7, 63, 7);
-    margin-top: 20px;
-    height: 45px;
-    padding: 5px;
-    border-bottom: 4px solid rgb(7,63,7);
-
-}
-img {
-    max-width: 100%;
-    display: block;
-}
-
-.serviços {
+.produtos {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 8000px;
-    margin: 0 auto;
-    cursor: pointer;
-
-}
-
-.serviços > div {
-    flex: 1 1 200px;
-    margin: 15px;
-    
-}
-.serviços > div p {
-    padding: 15px;
-    font-weight: 700;
-    font-size: 20px;
-    color:rgb(7, 63, 7);
-    text-align: center;
-}
-
-/*RODAPE*/
-footer{
-    background-color: rgb(215, 250, 215);
-    height: 100px;
-    text-align: right;
-    align-items: baseline;
-}
-footer p{
-    color: rgb(7, 63, 7);
 }
