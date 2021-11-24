@@ -68,7 +68,9 @@ h2 {
     border-bottom: 4px solid rgb(7,63,7);
 
 }
-img {
+/*teste*/
+
+.img {
     max-width: 100%;
     display: block;
 }
@@ -94,6 +96,60 @@ img {
     color:rgb(7, 63, 7);
     text-align: center;
 }
+
+
+main label{
+    width: 300px;
+    padding: 10px;
+    display: block;
+    float: left;
+    background-color: rgb(215, 250, 215);
+    color: rgb(7, 63, 7);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 15px;
+    transition: all 300ms linear;
+}
+
+label:hover{
+    background-color: rgb(7, 63, 7);
+    color:rgb(215, 250, 215);
+}
+
+main input{
+    display: none;
+}
+
+#relax:checked ~ #gride-produtos .todos,
+#relax:checked ~ #gride-produtos .beleza,
+#relax:checked ~ #gride-produtos .saude{
+    display: none;
+}
+
+#todos:checked ~ #gride-produtos .beleza,
+#todos:checked ~ #gride-produtos .saude,
+#todos:checked ~ #gride-produtos .relax{
+    display: none;
+}
+
+#beleza:checked ~ #gride-produtos .saude,
+#beleza:checked ~ #gride-produtos .relax,
+#beleza:checked ~ #gride-produtos .todos{
+    display: none;
+}
+
+#saude:checked ~ #gride-produtos .relax,
+#saude:checked ~ #gride-produtos .todos,
+#saude:checked ~ #gride-produtos .beleza{
+    display: none;
+
+
+
+
+
+
+
 
 /*RODAPE*/
 footer{
