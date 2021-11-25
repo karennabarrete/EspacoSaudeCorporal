@@ -68,6 +68,16 @@ h2 {
     border-bottom: 4px solid rgb(7,63,7);
 
 }
+
+#gride-produtos img{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 340px;
+    width: 200px;
+    margin: 50px;
+}
 /*teste*/
 
 .img {
@@ -145,19 +155,37 @@ main input{
     display: none;
 
 
-
-
-
-
-
-
 /*RODAPE*/
-footer{
-    background-color: rgb(215, 250, 215);
-    height: 100px;
-    text-align: right;
-    align-items: baseline;
 }
-footer p{
+
+footer {
     color: rgb(7, 63, 7);
+    background-color: rgb(215, 250, 215);
+    max-height: 100%;
+    text-align: center;
+    align-items: baseline;
+    padding: 5px;
+}
+.menu-rodape li {
+    padding: 3px;
+
+}
+.rodape {
+    margin-top: 15px;
+}
+
+/*SOBRE NOS*/
+
+#sobre-nos {
+    color: rgb(7, 63, 7);
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 15px;
+}
+
+.mapa{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
 }
