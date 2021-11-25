@@ -70,25 +70,28 @@ h2 {
 }
 
 #gride-produtos img{
-    display: inline-block;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     height: 340px;
     width: 200px;
     margin: 50px;
+
+}
+
+#gride-produtos {
+    display: flex;
+    justify-content: right;
+    max-width: 80%;
+    padding: 30px;
 }
 /*teste*/
 
-.img {
-    max-width: 100%;
-    display: block;
-}
 
 .serviços {
     display: flex;
     flex-wrap: wrap;
-    max-width: 8000px;
+    max-width: 800px;
     margin: 0 auto;
     cursor: pointer;
 
