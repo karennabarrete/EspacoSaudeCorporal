@@ -163,11 +163,9 @@ main input{
 #saude:checked ~ #gride-produtos .todos,
 #saude:checked ~ #gride-produtos .beleza{
     display: none;
-
-
-/*RODAPE*/
 }
 
+/*RODAPE*/
 footer {
     color: rgb(7, 63, 7);
     background-color: rgb(215, 250, 215);
@@ -182,6 +180,7 @@ footer {
 }
 .rodape {
     margin-top: 15px;
+    font-size: 10px;
 }
 
 /*SOBRE NOS*/

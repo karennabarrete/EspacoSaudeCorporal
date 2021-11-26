@@ -49,6 +49,12 @@ a {
 
 /*PRODUTO*/
 
+#titulo-produto{
+    text-align: center;
+    padding: 20px;
+    color:rgb(7, 63, 7);
+}
+
 .produtos {
     display: flex;
     justify-content: space-around;
@@ -64,4 +70,35 @@ a {
         cursor: pointer;
     
     }
+}
+
+#descricao{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    color:rgb(7, 63, 7);
+}
+#preco{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(255, 153, 0)
+}
+/*RODAPE*/
+
+footer {
+    color: rgb(7, 63, 7);
+    background-color: rgb(215, 250, 215);
+    max-height: 100%;
+    text-align: center;
+    align-items: baseline;
+    padding: 5px;
+}
+.menu-rodape li {
+    padding: 3px;
+
+}
+.rodape {
+    margin-top: 15px;
+    font-size: 10px;
 }
