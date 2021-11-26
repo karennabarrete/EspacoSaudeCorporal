@@ -70,21 +70,28 @@ h2 {
 }
 
 #gride-produtos img{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 340px;
-    width: 200px;
-    margin: 50px;
+    display: block;
+    justify-content: center;
+    height: 440px;
+    width: 300px;
+    margin: 50px auto;
 
 }
 
 #gride-produtos {
-    display: flex;
-    justify-content: right;
+    display: block;
+    justify-content: center;
     max-width: 80%;
-    padding: 30px;
+    padding: 30px; 
 }
+
+#gride-produtos p {
+    text-align: center;
+}
+.botao {
+    text-align: center;
+}
+
 /*teste*/
 
 
